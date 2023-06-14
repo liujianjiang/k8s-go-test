@@ -18,7 +18,7 @@ FROM anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/golang:1.19.4-8.6
 #           github.com/xyproto/simpleredis
 WORKDIR /app
 ADD ./main.go .
-RUN CGO_ENABLED=0 GOOS=linux go build -o main .
+RUN CGO_ENABLED=0 GOOS=linux go build main.go
 
 FROM scratch
 WORKDIR /app
