@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:1.20.0
+FROM anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/golang:1.19.4-8.6
 #RUN go get github.com/codegangsta/negroni \
 #           github.com/gorilla/mux \
 #           github.com/xyproto/simpleredis
