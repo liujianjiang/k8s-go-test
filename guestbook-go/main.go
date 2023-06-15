@@ -36,7 +36,7 @@ func main() {
 	}
 
 	r.GET("/", func(c *gin.Context) {
-		c.String(200, "Hello, Geektutu")
+		c.String(200, "Hello, Geektutu 2")
 	})
 	r.Run(":3000") // listen and serve on 0.0.0.0:3000
 }
